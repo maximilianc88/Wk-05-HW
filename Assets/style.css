@@ -31,13 +31,14 @@
   border-color: #0098d3;
 }
 
-.formInput {
+/* .formInput {
   padding: 0px;
   background-color: lightgrey;
-}
+} */
 
-.form-control:valid {
-  background-color: lightgrey !important;
+.form-control:focus {
+  border-color: #afaeb0 !important;
+  box-shadow: 0 0 5px #afaeb0 !important;
 }
 
 .row {
