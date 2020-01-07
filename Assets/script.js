@@ -24,6 +24,8 @@ var threePmInputKey = "3 pm Input: "
 var fourPmInputKey = "4 pm Input: "
 var fivePmInputKey = "5 pm Input: "
 
+$('.currentTime').html('<p class="p2">'+moment().format("dddd,MMMM do")+'</p>');
+
 //function to initiliaze planner
 $(document).ready(function() {
    checkNineAm();

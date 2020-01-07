@@ -35,3 +35,11 @@
   border-color: #afaeb0 !important;
   box-shadow: 0 0 5px #afaeb0 !important;
 }
+
+.p2 {
+  padding-bottom: 1rem;
+  margin-bottom: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: .75rem;
+}
